@@ -1,0 +1,561 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    float: left;
+    list-style: none;
+}
+
+/*定义全局li变量*/
+a {
+    text-decoration: none;
+}
+
+/*定义全局a变量*/
+input {
+    outline: none;
+}
+
+p {
+    font-family: "黑体";
+    color: #ffffff;
+}
+
+/*---------以下为导航栏---------*/
+.dh {
+    width: 100%;
+    height: 90px;
+    background-color: #322e45;
+    text-align: center;
+}
+
+.dh .daoh ul li a p {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: '黑体';
+}
+
+.dh .daoh ul {
+    margin-left: 290px;
+}
+
+.dh .daoh ul li {
+    margin-left: 22px;
+    margin-top: 35px;
+}
+
+.dh .daoh ul li:nth-child(3) {
+    margin-left: 168px;
+}
+
+.dh .daoh ul .redbj {
+    background-color: #b70211;
+    margin-top: 25px;
+    padding: 10px 22px;
+    border-radius: 20px;
+}
+
+.dh .daoh ul li:hover {
+    border-bottom: 3px solid #b70211;
+}
+
+.dh .daoh ul .redbj:hover {
+    cursor: pointer;
+    background-color: #810027;
+    transition: color 2s ease;
+}
+
+/*---------以上为导航栏---------*/
+
+/*---------以下为内容---------*/
+.datu img {
+    width: 100%;
+    height: 810px;
+}
+
+.datu {
+    width: 100%;
+    height: 810px;
+    overflow: hidden;
+    position: relative;
+}
+
+.datu .sosuo {
+    position: absolute;
+    width: 100%;
+    /* height: 100%; */
+    left: 360px;
+    top: 386px;
+    z-index: 2;
+}
+
+.datu .sosuo ul li {
+    color: #ffffff;
+    padding: 15px 12px;
+}
+
+.datu .sosuo .lan li:hover {
+
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding-bottom: 12px;
+}
+
+.datu .sosuo .lan li:hover p {
+    color: #ad0000;
+    border-bottom: 3px solid #b70211;
+}
+
+.datu .sosuo .ssul {
+    position: relative;
+    top: 0px;
+}
+
+.datu form {
+    position: absolute;
+    top: 423px;
+    left: 360px;
+}
+
+.datu .te input {
+    width: 550px;
+    height: 30px;
+    padding: 5px 50px;
+    color: #84828f;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.datu .te img {
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 12px;
+    bottom: 9px;
+    z-index: 5;
+}
+
+.datu .sosuo .anniu li a p {
+    color: #ffffff;
+}
+
+.datu .sosuo .anniu {
+    position: absolute;
+    top: 38px;
+    left: 670px;
+    cursor: pointer;
+}
+
+.datu .sosuo .anniu li {
+    padding: 11px 20px;
+    margin-left: 10px;
+}
+
+.datu .sosuo .anniu .rbj {
+    background-color: #b70211;
+}
+
+.datu .sstp {
+    position: absolute;
+    left: 290px;
+    top: 360px;
+    width: 1100px;
+    height: auto;
+}
+
+.datu .xz {
+    position: absolute;
+    top: 475px;
+}
+
+/* ------------------- */
+.hstj {
+    background-image: url("../images/借书背景.png");
+    position: relative;
+    width: 100%;
+    height: 360px;
+}
+
+.hstj .zuob {
+    position: absolute;
+    top: 75px;
+    left: 290px;
+}
+
+.hstj .zuob p {
+    margin-bottom: 47px;
+}
+
+.hstj .zuob p:nth-child(1) {
+    font-size: 28px;
+}
+
+.hstj .zuob p:nth-child(2) {
+    font-size: 22px;
+}
+
+.hstj .zuob p:nth-child(3) {
+    font-size: 10px;
+}
+
+.hstj .youb {
+    position: absolute;
+    top: 30px;
+    right: 290px;
+}
+
+.hstj .youb img:nth-child(1) {
+    margin-right: 10px;
+}
+
+/*-----------------------------*/
+.du {
+    margin-top: 80px;
+    position: relative;
+}
+
+.du .tob .duzfw {
+    position: absolute;
+    margin-left: 290px;
+    width: 990px;
+    height: 102px;
+}
+
+.du .tob .duzfw .ddazi p {
+    position: absolute;
+    font-size: 28px;
+    background-color: #ffffff;
+    color: #0e1b4d;
+    top: 0px;
+    left: 450px;
+    z-index: 2;
+}
+
+.du .tob .duzfw .dxiaozi {
+    position: absolute;
+    font-size: 10px;
+    border: 2px solid #b82100;
+    background-color: #ffffff;
+    padding: 26px 12px;
+    top: 22px;
+    left: 350px;
+}
+
+.du .tob .duzfw .dxiaozi p {
+    font-size: 10px;
+    color: #9195a2;
+}
+
+.du .tob .xiex {
+    position: absolute;
+    top: 51px;
+    margin-left: 290px;
+    height: 12px;
+    width: 990px;
+    background-image: url("../images/斜线.png");
+}
+
+.tup2 {
+    position: relative;
+    width: 990px;
+    margin-left: 290px;
+    top: 150px;
+}
+
+.tup2 .h {
+    position: absolute;
+    width: 990px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.h .h1 {
+    position: absolute;
+    left: 0px;
+}
+
+.h .h2 {
+    position: absolute;
+    left: 350px;
+}
+
+.h .h3 {
+    position: absolute;
+    left: 700px;
+}
+
+.h .h1-1 {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+}
+
+.h .h2-2 {
+    position: absolute;
+    top: 200px;
+    left: 350px;
+}
+
+.h .h3-3 {
+    position: absolute;
+    top: 200px;
+    left: 700px;
+}
+
+.tup2 .y {
+    position: absolute;
+    display: inline;
+    left: 110px;
+    width: 100px;
+    font-size: 16px;
+    color: #24305e;
+}
+
+.tup2 .e {
+    position: absolute;
+    display: inline;
+    left: 110px;
+    width: 150px;
+    line-height: 30px;
+    font-size: 12px;
+    margin-top: 30px;
+    color: black;
+}
+
+/*--------------------------*/
+
+.btlb {
+    margin-top: 650px;
+    position: relative;
+    background-image: url("../images/标题栏背景.png");
+    width: 100%;
+    height: 400px;
+}
+
+.btlb .zuo p {
+    color: black;
+}
+
+.btlb .zuo .shang {
+    width: 580px;
+    position: relative;
+    margin-left: 310px;
+    overflow: hidden;
+}
+
+.btlb .zuo .shang li {
+    margin-right: 20px;
+    margin-top: 13px;
+}
+
+.btlb .zuo .shang li:nth-child(1) {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.btlb .zuo .shang li:nth-child(2) p {
+    border: none;
+    color: #ad0000;
+    padding-right: 7px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ad0000;
+}
+
+.btlb .zuo .shang li p {
+    border-left: 1px solid #bfbfbf;
+    padding-left: 10px;
+    color: #555555;
+    font-size: 15px;
+    cursor:pointer;
+}
+
+.shang .xian {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    width: 530px;
+    height: 1px;
+    background-color: #dddddd;
+}
+
+.btlb .zuo .xia {
+    margin-left: 270px;
+}
+
+.btlb li a p:hover {
+    color: red;
+}
+
+.xia {
+    position: relative;
+}
+
+.xian {
+    position: absolute;
+    top: 20px;
+    left: -15px;
+    width: 110%;
+    height: 1px;
+    background-color: #dddddd;
+}
+
+.btlb .zuo .xia li {
+    clear: both;
+    position: relative;
+    margin-top: 22px;
+    list-style: url("../images/小红正方形.png");
+}
+
+.btlb .zuo .xia ul {
+    float: left;
+    margin-left: 50px;
+}
+
+.btlb .you {
+    margin-top: -30px;
+    margin-left: 940px;
+}
+
+.btlb .you .yt p {
+    color: #333333;
+    font-size: 16px;
+    display: inline;
+    position: absolute;
+    top: 30px;
+    right: 180px;
+}
+
+.btlb .you li {
+    list-style: url("../images/小红正方形.png");
+    margin-left: 13px;
+    margin-top: 5px;
+}
+
+.btlb .you li p {
+    color: #333333;
+    font-size: 14px;
+}
+
+/*-----------------------*/
+.xueyuan {
+    position: relative;
+    margin-top: 20px;
+}
+
+.xueyuan .tob .duzfw {
+    position: absolute;
+    margin-left: 290px;
+    width: 990px;
+    height: 102px;
+
+}
+
+.xueyuan .tob .duzfw .ddazi p {
+    position: absolute;
+    font-size: 28px;
+    background-color: #ffffff;
+    color: #0e1b4d;
+    top: 0px;
+    left: 435px;
+    z-index: 2;
+}
+
+.xueyuan .tob .duzfw .dxiaozi {
+    position: absolute;
+    font-size: 10px;
+    border: 2px solid #b82100;
+    background-color: #ffffff;
+    padding: 26px 12px;
+    top: 20px;
+    left: 350px;
+}
+
+.xueyuan .tob .duzfw .dxiaozi p {
+    font-size: 10px;
+    color: #9195a2;
+}
+
+
+.xueyuan .tob .xiex {
+    position: absolute;
+    top: 51px;
+    margin-left: 290px;
+    height: 12px;
+    width: 990px;
+    background-image: url("../images/斜线.png");
+}
+
+.tpxie {
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+
+.tpxie img:nth-child(1):hover {
+    transform: rotate(-5deg);
+}
+
+.tpxie img:nth-child(2):hover {
+    transform: rotate(-5deg);
+}
+
+.tpxie img:nth-child(3):hover {
+    transform: rotate(-5deg);
+}
+
+.tpxie img:nth-child(4):hover {
+    transform: rotate(0deg);
+}
+
+.tpxie img:nth-child(5):hover {
+    transform: rotate(5deg);
+}
+
+.tpxie img:nth-child(6):hover {
+    transform: rotate(5deg);
+}
+
+.tpxie img:nth-child(7):hover {
+    transform: rotate(5deg);
+}
+
+/*---------以上为内容---------*/
+/*---------以下为页尾---------*/
+footer {
+    position: relative;
+    margin-top: 550px;
+    height: 240px;
+    background-image: url("../images/页尾背景.png");
+}
+
+footer p {
+    margin-right: 20px;
+}
+
+footer select {
+    border-radius: 20px;
+    margin-right: 120px;
+    width: 120px;
+}
+
+.xkuan {
+    position: absolute;
+    top: 70px;
+    left: 500px;
+}
+
+footer .p {
+    position: absolute;
+    bottom: 50px;
+    left: 460px;
+}
+
+span {
+    margin-left: 20px;
+    color: #f1f1f3;
+    font-size: 12px;
+}
+
+/*---------以上为页尾---------*/
